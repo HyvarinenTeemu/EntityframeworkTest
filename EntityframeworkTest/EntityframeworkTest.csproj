@@ -178,60 +178,60 @@
     </Compile>
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Category.cs">
-      <DependentUpon>NorthwindEntitymodel.tt</DependentUpon>
-    </Compile>
-    <Compile Include="Models\Contact.cs">
-      <DependentUpon>NorthwindEntitymodel.tt</DependentUpon>
+      <DependentUpon>northwindentity.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Customer.cs">
-      <DependentUpon>NorthwindEntitymodel.tt</DependentUpon>
+      <DependentUpon>northwindentity.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\CustomerDemographic.cs">
-      <DependentUpon>NorthwindEntitymodel.tt</DependentUpon>
+      <DependentUpon>northwindentity.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Employee.cs">
-      <DependentUpon>NorthwindEntitymodel.tt</DependentUpon>
+      <DependentUpon>northwindentity.tt</DependentUpon>
+    </Compile>
+    <Compile Include="Models\employees_bak.cs">
+      <DependentUpon>northwindentity.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\IdentityModels.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
-    <Compile Include="Models\NorthwindEntitymodel.Context.cs">
+    <Compile Include="Models\northwindentity.Context.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>NorthwindEntitymodel.Context.tt</DependentUpon>
+      <DependentUpon>northwindentity.Context.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\NorthwindEntitymodel.cs">
+    <Compile Include="Models\northwindentity.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>NorthwindEntitymodel.tt</DependentUpon>
+      <DependentUpon>northwindentity.tt</DependentUpon>
     </Compile>
-    <Compile Include="Models\NorthwindEntitymodel.Designer.cs">
+    <Compile Include="Models\northwindentity.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>NorthwindEntitymodel.edmx</DependentUpon>
+      <DependentUpon>northwindentity.edmx</DependentUpon>
     </Compile>
     <Compile Include="Models\Order.cs">
-      <DependentUpon>NorthwindEntitymodel.tt</DependentUpon>
+      <DependentUpon>northwindentity.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Order_Detail.cs">
-      <DependentUpon>NorthwindEntitymodel.tt</DependentUpon>
+      <DependentUpon>northwindentity.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Product.cs">
-      <DependentUpon>NorthwindEntitymodel.tt</DependentUpon>
+      <DependentUpon>northwindentity.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Region.cs">
-      <DependentUpon>NorthwindEntitymodel.tt</DependentUpon>
+      <DependentUpon>northwindentity.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Shipper.cs">
-      <DependentUpon>NorthwindEntitymodel.tt</DependentUpon>
+      <DependentUpon>northwindentity.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Supplier.cs">
-      <DependentUpon>NorthwindEntitymodel.tt</DependentUpon>
+      <DependentUpon>northwindentity.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\sysdiagram.cs">
-      <DependentUpon>NorthwindEntitymodel.tt</DependentUpon>
+      <DependentUpon>northwindentity.tt</DependentUpon>
     </Compile>
     <Compile Include="Models\Territory.cs">
-      <DependentUpon>NorthwindEntitymodel.tt</DependentUpon>
+      <DependentUpon>northwindentity.tt</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -244,24 +244,24 @@
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
     <Content Include="js\BrowseNorthwind.js" />
-    <Content Include="Models\NorthwindEntitymodel.Context.tt">
+    <Content Include="Models\northwindentity.Context.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>NorthwindEntitymodel.edmx</DependentUpon>
-      <LastGenOutput>NorthwindEntitymodel.Context.cs</LastGenOutput>
+      <DependentUpon>northwindentity.edmx</DependentUpon>
+      <LastGenOutput>northwindentity.Context.cs</LastGenOutput>
     </Content>
-    <Content Include="Models\NorthwindEntitymodel.tt">
+    <Content Include="Models\northwindentity.tt">
       <Generator>TextTemplatingFileGenerator</Generator>
-      <DependentUpon>NorthwindEntitymodel.edmx</DependentUpon>
-      <LastGenOutput>NorthwindEntitymodel.cs</LastGenOutput>
+      <DependentUpon>northwindentity.edmx</DependentUpon>
+      <LastGenOutput>northwindentity.cs</LastGenOutput>
     </Content>
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
-    <EntityDeploy Include="Models\NorthwindEntitymodel.edmx">
+    <EntityDeploy Include="Models\northwindentity.edmx">
       <Generator>EntityModelCodeGenerator</Generator>
-      <LastGenOutput>NorthwindEntitymodel.Designer.cs</LastGenOutput>
+      <LastGenOutput>northwindentity.Designer.cs</LastGenOutput>
     </EntityDeploy>
-    <Content Include="Models\NorthwindEntitymodel.edmx.diagram">
-      <DependentUpon>NorthwindEntitymodel.edmx</DependentUpon>
+    <Content Include="Models\northwindentity.edmx.diagram">
+      <DependentUpon>northwindentity.edmx</DependentUpon>
     </Content>
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />

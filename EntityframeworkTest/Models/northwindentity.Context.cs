@@ -13,10 +13,10 @@ namespace EntityframeworkTest.Models
     using System.Data.Entity;
     using System.Data.Entity.Infrastructure;
     
-    public partial class northwindEntities : DbContext
+    public partial class NORTHWNDEntities : DbContext
     {
-        public northwindEntities()
-            : base("name=northwindEntities")
+        public NORTHWNDEntities()
+            : base("name=NORTHWNDEntities")
         {
         }
     
@@ -26,7 +26,6 @@ namespace EntityframeworkTest.Models
         }
     
         public virtual DbSet<Category> Categories { get; set; }
-        public virtual DbSet<Contact> Contacts { get; set; }
         public virtual DbSet<CustomerDemographic> CustomerDemographics { get; set; }
         public virtual DbSet<Customer> Customers { get; set; }
         public virtual DbSet<Employee> Employees { get; set; }
@@ -38,5 +37,6 @@ namespace EntityframeworkTest.Models
         public virtual DbSet<Supplier> Suppliers { get; set; }
         public virtual DbSet<sysdiagram> sysdiagrams { get; set; }
         public virtual DbSet<Territory> Territories { get; set; }
+        public virtual DbSet<employees_bak> employees_bak { get; set; }
     }
 }

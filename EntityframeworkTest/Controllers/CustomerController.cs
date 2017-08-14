@@ -1,4 +1,5 @@
 ﻿using EntityframeworkTest.Models;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -16,9 +17,28 @@ namespace EntityframeworkTest.Controllers
 
         public JsonResult GetCustomers() {
 
-            northwindEntities en = new northwindEntities();
+            NORTHWNDEntities en = new NORTHWNDEntities();
 
-            return Json(customers);
+
+            var customer = (from c in en.Customers
+                            select new {
+                                CustomerID = c.CustomerID,
+                                CompanyName = c.CompanyName,
+                                ContactName = c.ContactName,
+                                ContactTitle = c.ContactTitle,
+                                Address = c.Address,
+                                City = c.City,
+                                Region = c.Region,
+                                PostalCode = c.PostalCode,
+                                Country = c.Country,
+                                Phone = c.Phone,
+                                Fax = c.Fax
+                            }).ToList();
+
+            en.Dispose();
+
+            string json = JsonConvert.SerializeObject(customer);
+            return Json(json, JsonRequestBehavior.AllowGet);
         }
     }
 }

@@ -20,6 +20,6 @@
                     "</tr>";
         }
 
-        $(".customertable tbody").html(html);
+        $("#customertable tbody").html(html);
     });
 });

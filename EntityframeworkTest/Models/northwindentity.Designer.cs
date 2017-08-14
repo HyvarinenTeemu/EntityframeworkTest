@@ -1,4 +1,4 @@
-﻿// T4 code generation is enabled for model 'c:\users\teemu\documents\visual studio 2015\Projects\EntityframeworkTest\EntityframeworkTest\Models\NorthwindEntitymodel.edmx'. 
+﻿// T4 code generation is enabled for model 'C:\Users\Matty\Source\Repos\EntityframeworkTest\EntityframeworkTest\Models\northwindentity.edmx'. 
 // To enable legacy code generation, change the value of the 'Code Generation Strategy' designer
 // property to 'Legacy ObjectContext'. This property is available in the Properties Window when the model
 // is open in the designer.
